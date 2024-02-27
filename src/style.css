@@ -1,0 +1,134 @@
+/* .hello {
+    color: green;
+    width: 100px;
+}*/
+
+.logoImg {
+    width: 100px;
+} 
+
+body {
+    margin: 0;
+    background-color: #47010c;
+    background-image: url('./bangDark.png');
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+nav {
+    margin: 0 36px;
+}
+
+.nav-btn {
+    background-color: #47010c;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: white;
+    border: 2px solid #47010c;
+    color: #47010c;
+}
+
+#content {
+    margin-top: 30px;
+    color: white;
+    opacity: .9;
+    /* display: flex; */
+}
+
+#home, #menu, #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 150px 0;
+}
+
+#menu {
+    margin: 0 0 50px 0;
+}
+
+#about {
+    font-size: 32px;
+}
+
+#callUsMsg {
+    font-size: 14px;
+    text-align: center;
+}
+
+#restoName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border: 5px solid white;
+    width: 450px;
+    height: 100px;
+    padding: 0;
+}
+
+#restoInfo {
+    text-align: center;
+}
+
+.check-btn {
+    background-color: white;
+    border: 2px solid #47010c;
+    color: #47010c;
+}
+
+.menu-item {
+    height: 200px; 
+    width: 400px;
+    background-color: #47010c;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+#tikka {
+    background-image: url('./tikka.png');
+}
+
+#menuDescription {
+    background-color: black;
+    text-align: center;
+    width: max-content;
+    margin: 50px auto 50px auto;
+}
+
+.add-cart {
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+
+}
